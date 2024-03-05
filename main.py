@@ -96,11 +96,11 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Sir, the time is {strTime}")
         elif "shut down " in query:
-            os.startfile("shutdown.bat")
+            subprocess.run([r"C:\Users\BAALA GURU\PycharmProjects\Jarvis\shutdown.bat"])
         elif "restart the system" in query:
             os.system("shutdown /r /t 5")
         elif "Lock" in query:
-            os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
+            subprocess.run([r"C:\Users\BAALA GURU\PycharmProjects\Jarvis\lock_pc.bat"])
         elif "open notepad" in query:
             os.startfile("C://WINDOWS//system32//notepad.exe")
         elif "close notepad" in query:
