@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad84a6c-a2a9-4c25-9645-07c74b7a8610" name="Changes" comment="First-Commit" />
+    <list default="true" id="cad84a6c-a2a9-4c25-9645-07c74b7a8610" name="Changes" comment="Fix : fixed functionalities lock and shutdown">
+      <change afterPath="$PROJECT_DIR$/SlideToShutDown.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_windows_update.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/none.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nothing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restart_pc.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shutdown.bat" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +35,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="434ed7db-92bc-4e8f-bfe2-0f458a1e2347" />
+        <option name="url" value="https://github.com/Baalaguru/Jarvis-Advanced.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -46,16 +67,39 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.chrome.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/BAALA GURU/PycharmProjects/Jarvis/opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="chrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Jarvis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Jarvis" />
       <option name="ENV_FILES" value="" />
@@ -81,6 +125,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.chrome" />
       </list>
     </recent_temporary>
   </component>
@@ -116,12 +161,56 @@
       <option name="project" value="LOCAL" />
       <updated>1709524993933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First-Commit">
+      <option name="closed" value="true" />
+      <created>1709525290149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709525290149</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: chrome.py added">
+      <option name="closed" value="true" />
+      <created>1709611960549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709611960549</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: batch file added lock_pc.bat and shutdown.bat">
+      <option name="closed" value="true" />
+      <created>1709612021165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709612021165</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix : fixed functionalities">
+      <option name="closed" value="true" />
+      <created>1709612087565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709612087565</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix : fixed functionalities lock and shutdown">
+      <option name="closed" value="true" />
+      <created>1709612702028</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709612702028</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First-Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First-Commit" />
+    <MESSAGE value="feat: chrome.py added" />
+    <MESSAGE value="feat: batch file added lock_pc.bat and shutdown.bat" />
+    <MESSAGE value="Fix : fixed functionalities" />
+    <MESSAGE value="Fix : fixed functionalities lock and shutdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix : fixed functionalities lock and shutdown" />
   </component>
 </project>
