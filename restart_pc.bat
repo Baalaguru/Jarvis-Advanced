@@ -1,0 +1,3 @@
+@echo off
+echo Restarting your PC...
+shutdown /r /t 0
