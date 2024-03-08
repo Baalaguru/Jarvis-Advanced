@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad84a6c-a2a9-4c25-9645-07c74b7a8610" name="Changes" comment="Fix : fixed functionalities lock and shutdown">
-      <change afterPath="$PROJECT_DIR$/SlideToShutDown.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check_windows_update.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/none.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nothing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restart_pc.bat" afterDir="false" />
+    <list default="true" id="cad84a6c-a2a9-4c25-9645-07c74b7a8610" name="Changes" comment="workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shutdown.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +194,39 @@
       <option name="project" value="LOCAL" />
       <updated>1709612702028</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feat : added texting functionality">
+      <option name="closed" value="true" />
+      <created>1709807278018</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709807278018</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feat : added .ink,.bat,and .cmd files to performe specific task">
+      <option name="closed" value="true" />
+      <created>1709807397709</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709807397709</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Testing : screenshot functionality">
+      <option name="closed" value="true" />
+      <created>1709807447119</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709807447119</updated>
+    </task>
+    <task id="LOCAL-00011" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1709807462565</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709807462565</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +236,10 @@
     <MESSAGE value="feat: batch file added lock_pc.bat and shutdown.bat" />
     <MESSAGE value="Fix : fixed functionalities" />
     <MESSAGE value="Fix : fixed functionalities lock and shutdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix : fixed functionalities lock and shutdown" />
+    <MESSAGE value="Feat : added texting functionality" />
+    <MESSAGE value="Feat : added .ink,.bat,and .cmd files to performe specific task" />
+    <MESSAGE value="Testing : screenshot functionality" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
 </project>

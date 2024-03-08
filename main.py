@@ -126,8 +126,6 @@ if __name__ == "__main__":
             os.system("taskkill /f /im cmd.exe")
         elif "open camera" in query:
             pass
-        #     os.system("C://Windows//System32//camera.exe")
-
             # cap = cv2.VideoCapture(VideoCapture0)
             # while True:
             #     ret, img = cap.read()
